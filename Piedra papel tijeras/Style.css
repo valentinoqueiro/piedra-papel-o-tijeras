@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fef7d5;
+    color: #000;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    margin-left: 10%;
+}
+.opciones button{
+    width: 5rem;
+    height: 2rem;
+    margin: 1rem;
+    background-color: #36cecc;
+    border:0;
+    border-radius: 0.5rem;
+}
+.imgs img{
+    width: 15rem;
+    
+}
+.imgs{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.jugar{
+    width: 5rem;
+    height: 2rem;
+    background-color: #176585;
+    border: 0;
+    border-radius: 0.5rem;
+    color: #fff;
+}
+.jugar-btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .imgs p{
+    color: red;
+font-size: 2rem;
+}
+h4{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1rem;
+    margin:  2rem;
+}
+.contador{
+    width: 100%;
+    display: flex;
+    gap: 0.3rem;
+    align-items: center ;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+#reiniciar{
+    margin: 5rem;
+    background-color: #36cecc;
+    color: #000;
+    display: none;
+}
